@@ -31,12 +31,12 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            // location: {
-            //     center: [-87.61265, 41.85399],
-            //     zoom: 9.81,
-            //     pitch: 77.00,
-            //     bearing: 0.00
-            // },
+            location: {
+                center: [-87.61265, 41.85399],
+                zoom: 9.81,
+                pitch: 77.00,
+                bearing: 0.00
+            },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
