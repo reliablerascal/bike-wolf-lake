@@ -26,17 +26,17 @@ var config = {
             //image: './images/wash_park_scene_without_ppl.jpg',
             //and the The Oxford English dictionary defines a fort as a person or thing not susceptible to outside influence or disturbance.',
             location: {
-                center: [-87.61265, 41.85399],
-                zoom: 9.81,
-                pitch: 77.00,
+                center: [-87.54426, 41.68283],
+                zoom: 12.75,
+                pitch: 0.00,
                 bearing: 0.00
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                // speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
             },
+            // location: {
+            //     center: [-87.61265, 41.85399],
+            //     zoom: 9.81,
+            //     pitch: 77.00,
+            //     bearing: 0.00
+            // },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
